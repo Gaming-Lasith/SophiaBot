@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there! My name is <b>Sophia.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"""
+PM_START_TEXT = """Hey there! My name is <b>Alexia.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"""
 
 buttons = [
     [
@@ -86,19 +86,19 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Sophia News 🙋‍♀️ ", url=f"https://t.me/SophiaUpdates"),
-        InlineKeyboardButton(text="Support Group 💬 ", url=f"https://t.me/SophiaSupport_Official"),
+        InlineKeyboardButton(text="Alexia Updates 🙋‍♀️ ", url=f"https://t.me/AlexiabotUpdats"),
+        InlineKeyboardButton(text="Support Group 💬 ", url=f"https://t.me/AlexiabotDiscussion"),
     ],
     [
-        InlineKeyboardButton(text="➕ Add me to your Group ➕", url="t.me/SophiaSLBot?startgroup=true"),   
+        InlineKeyboardButton(text="➕ Add me to your Group ➕", url="t.me/TheAlexiaBot?startgroup=true"),   
     ],
 ]
 
 HELP_STRINGS = """
-Hi Boss! I'm <b>Sophia</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
+Hi Boss! I'm <b>Alexia</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
 """
 
-DONATE_STRING = """ Join Updates Channel @SophiaUpdates | Support Group @SophiaSupport_Official"""
+DONATE_STRING = """ Join Updates Channel @AlexiabotUpdats | Support Group @AlexiabotDiscussion"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -341,10 +341,10 @@ def sophia_about_callback(update, context):
             text=""" My name is *Sophia*, I have been written with Pyrogram and Telethon.. I'm online since 10 June 2021 and is constantly updated!
 *Bot Version: 3.0*
 \n*Bot Developers:*
--  @dihanrandila
--  @InukaASiTH
-\n* Updates Channel:* @SophiaUpdates
-* Support Chat:* @SophiaSupport_Official
+-  @Gaming_Lasith ( ME )
+-  @Gaming_Lasith_Updates ( UPDATES )
+\n* Updates Channel:* @AlexiabotUpdates
+* Support Chat:* @AlexiabotDiscussion
                  \n\n* And finally special thanks of gratitude to all my users who relied on me for managing their groups, I hope you will always like me; My developers are constantly working to improve me!
                  \n\n *Licensed under the GNU Affero General Public Lisence v3.0*
                  \n© 2020 - 2021 @SophiaSLBot. All Rights Reserved """,
@@ -400,7 +400,7 @@ def sophia_about_callback(update, context):
     elif query.data == "sophia_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, *Sophia* now ready to manage your group."
+            f"\nCongragulations, **Alexia** now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -433,8 +433,8 @@ def sophia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support Group", url="t.me/dihan_official"),
-                    InlineKeyboardButton(text="Updates Channel", url="t.me/dihanofficial"),
+                    InlineKeyboardButton(text="Support Group", url="t.me/AlexiabotDiscussion"),
+                    InlineKeyboardButton(text="Updates Channel", url="t.me/AlexiabotUpdates"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="sophia_basichelp"),
@@ -445,14 +445,14 @@ def sophia_about_callback(update, context):
         )
     elif query.data == "sophia_credit":
         query.message.edit_text(
-            text=f"*Credit For Sophia's Devs*\n"
-            f"\nHere Some Developers Helping in Making The Sophia Bot",
+            text=f"*Credit For Alexia's Devs*\n"
+            f"\nHere Some Developers Helping in Making The Alexia Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Dihan", url="t.me/dihanrandila"),
-                    InlineKeyboardButton(text="Inuka", url="t.me/InukaASiTH"),
+                    InlineKeyboardButton(text="ME", url="t.me/Gaming_Lasith"),
+                    InlineKeyboardButton(text="Updates", url="t.me/Gaming_Lasith_Updates"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="sophia_basichelp"),
@@ -486,11 +486,11 @@ def Source_about_callback(update, context):
                     InlineKeyboardButton(text="❓ Basic Help", callback_data="sophia_basichelp"),
                   ],
                   [
-                    InlineKeyboardButton(text=" Special Credits ❤ ", url=f"https://telegra.ph/Special-Credits-08-21"),
-                    InlineKeyboardButton(text="Terms And Conditions 📄 ", url=f"https://telegra.ph/Terms-and-Conditions-08-21"),
+                    InlineKeyboardButton(text=" Special Credits ❤ ", url=f"https://telegra.ph/404-Page-Does-Not-Exist"),
+                    InlineKeyboardButton(text="Terms And Conditions 📄 ", url=f"https://telegra.ph/404-Page-Does-Not-Exist"),
                   ],
                   [
-                    InlineKeyboardButton(text="💾 Source Code", url=f"https://github.com/dihanofficial/SophiaBot"),
+                    InlineKeyboardButton(text="💾 Source Code", url=f"https://github.com/Gaming-Lasith/SophiaBot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back")
