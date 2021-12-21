@@ -1,4 +1,4 @@
-<h1 align="center"><b><i>❤ Alexia v3 ❤</i></b></h1>
+<h1 align="center"><b><i>❤ Alexia ❤</i></b></h1>
 
 
 <p align="center"><a href="https://t.me/TheAlexiabotDiscussion"><img src="https://telegra.ph/file/bec69757a682665cbacf3.jpg" width="400"></a></p>
