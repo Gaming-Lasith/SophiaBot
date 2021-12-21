@@ -1,15 +1,15 @@
 {
-      "name": "Sophia",
+      "name": "Alexia",
       "description": "Telegram group management bot.",
-      "logo": "https://telegra.ph/file/55ee43a1fe97fefd29ed0.jpg",
+      "logo": "https://telegra.ph/file/bec69757a682665cbacf3.jpg",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Sophia"
+         "Alexia"
       ],   
-   "repository": "https://github.com/dihanofficial/SophiaBot",
+   "repository": "https://github.com/Gaming-Lasith/TheAlexiaBot",
    "addons": [
       {
          "options": {
@@ -50,7 +50,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1725052009"
+         "value": "1124897822"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
@@ -67,12 +67,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "dihanrandila"
+         "value": "Gaming_Lasith"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "SophiaSupport_Official"
+         "value": "TheAlexiabotDiscussion"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -182,7 +182,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/SophiaSupport_Official"
+         "value": "https://t.me/TheAlexiaBotUpdates"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
