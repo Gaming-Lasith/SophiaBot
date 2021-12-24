@@ -1,5 +1,13 @@
 <h1 align="center"><b><i>❤ Alexia ❤</i></b></h1>
 
+<p align="center">
+    <a href="https://github.com/SL-Alpha-X/SL-Alpha-X">
+        <img
+            src="https://readme-typing-svg.herokuapp.com?size=30&width=1000&lines=Alexia++is++super++manager++for++your++group"
+            alt="Typing SVG"
+        />
+    </a>
+</p>
 
 <p align="center"><a href="https://t.me/TheAlexiabotDiscussion"><img src="https://telegra.ph/file/bec69757a682665cbacf3.jpg" width="400"></a></p>
 <p align="center">
